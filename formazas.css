@@ -40,3 +40,6 @@ header .mezes {
 .oldalakNav ul li a{
     text-decoration: none;
 }
+table, th, td {
+    text-align: center;
+  }
