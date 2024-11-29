@@ -19,11 +19,11 @@ header.beigli{
 }
 header .toltott {
     background-image: url(kepek/toltottkaposzta.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 
 header {
     height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
