@@ -36,3 +36,7 @@ header .mezes {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.oldalakNav ul li a{
+    text-decoration: none;
+}
