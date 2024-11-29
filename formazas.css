@@ -2,3 +2,25 @@ header.beigli{
     background-image: url(kepek/bejgli.jpg);
     
 }
+.oldalakBody{
+    background-image: url(kepek/receptOldalakHatter.jpg);
+    background-repeat: repeat;
+    background-size:contain;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.oldalakBelso{
+    width: 5000px;
+    background-color: beige;
+    box-sizing: border-box;
+    padding: 10pt;
+}
+header .toltott {
+    background-image: url(kepek/toltottkaposzta.webp);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
