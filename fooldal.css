@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-areas: 
+        "h h h"
+        "a s a"
+        "f f f"
+        ;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+header {
+    grid-area: h;
+}
+
+article {
+    grid-area: a;
+}
+
+section {
+    grid-area: s;
+}
+
+footer {
+    grid-area: f;
+}
