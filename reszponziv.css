@@ -18,8 +18,8 @@
         grid-template-areas: 
             "h "
             "n "
-            "a "
-            "as"
+            "as "
+            "a"
             "f "
             ;
         grid-template-columns: 1fr;
