@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .oldalakBody{
     background-image: url(kepek/receptOldalakHatter.jpg);
     background-repeat: repeat;
@@ -12,4 +13,12 @@
     background-color: beige;
     box-sizing: border-box;
     padding: 10pt;
+=======
+header .toltott {
+    background-image: url(kepek/toltottkaposzta.webp);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> 0014fbc7da7204ca85194e03fb571afcfc286ec2
 }
