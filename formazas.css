@@ -37,5 +37,5 @@ header .mezes {
     background-size: cover;
 }
 table, th, td {
-    border:1px solid black;
+    text-align: center;
   }
