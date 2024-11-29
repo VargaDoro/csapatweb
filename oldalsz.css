@@ -37,3 +37,38 @@ main {
         ;
     grid-template-columns: 1fr 3fr 2fr;
 }
+
+@media screen and(max-width: 500px) {
+    header {
+        grid-area: h;
+    }
+    
+    nav {
+        grid-area: n;
+    }
+    
+    article {
+        grid-area: a;
+    }
+    
+    aside {
+        grid-area: as;
+    }
+    
+    footer {
+        grid-area: f;
+    }
+    
+    main {
+        display: grid;
+        grid-template-areas: 
+            "h "
+            "n "
+            "a "
+            "as"
+            "f "
+            ;
+        grid-template-columns: 1fr;
+    }
+    
+}
