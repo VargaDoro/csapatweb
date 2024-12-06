@@ -1,5 +1,5 @@
 header .beigli{
-    background-image: url(kepek/bejgli.jpg);
+    background-image: url(kepek/hatterek/bejgli.jpg);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ header .beigli{
     
 }
 .oldalakBody{
-    background-image: url(kepek/receptOldalakHatter.jpg);
+    background-image: url(kepek/hatterek/receptOldalakHatter.jpg);
     background-repeat: repeat;
     background-size:contain;
     margin: 0;
@@ -17,12 +17,12 @@ header .beigli{
 
 .oldalakBelso{
     width: 5000px;
-    background-color: beige;
+    background-color: #f5f5dc;
     box-sizing: border-box;
     padding: 10pt;
 }
 header .toltott {
-    background-image: url(kepek/toltottkaposzta.webp);
+    background-image: url(kepek/hatterek/toltottkaposzta.webp);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ header .toltott {
 }
 
 header .mezes {
-    background-image: url(kepek/mezeskalacsHeaderKep.webp);
+    background-image: url(kepek/hatterek/mezeskalacsHeaderKep.webp);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,48 @@ header .mezes {
 
 .oldalakNav ul li a{
     text-decoration: none;
+    color: rgb(73, 73, 73);
 }
 table, th, td {
     text-align: center;
   }
+
+h2{
+    font-family: 'Dancing Script';
+    color: rgb(105, 104, 104);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight:700;
+}
+*{
+    font-family: "Open Sans";
+}
+.hozzavalokLista{
+    list-style-image: url(kepek/listaIkon/icon.jpg);
+    padding: 20px;
+    margin-top: 0%;
+    padding-top: 10px;
+}
+h3{
+    color: rgb(105, 104, 104);
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+hr{
+    width: 70%;
+}
+p{
+    text-align: justify;
+}
+article{
+    padding-right: 10%;
+}
+.oldalakNav>ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.oldalakNav>ul>li>a.active {
+    color: brown;
+}
